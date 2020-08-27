@@ -1,0 +1,44 @@
+{
+	"name": "cms-game-product",
+	"version": "0.0.1",
+	"description": "A Quasar Framework app",
+	"productName": "RPLGDC Showcase",
+	"author": "krobus00 <michaelglaxy@gmail.com>",
+	"private": true,
+	"scripts": {
+		"web": "quasar dev",
+		"android": "quasar dev -m android",
+		"test": "echo \"No test specified\" && exit 0"
+	},
+	"dependencies": {
+		"@quasar/extras": "^1.0.0",
+		"axios": "^0.18.1",
+		"bootstrap-vue": "^2.16.0",
+		"core-js": "^3.6.5",
+		"quasar": "^1.0.0",
+		"v-img": "^0.2.0",
+		"vee-validate": "^2.2.15",
+		"vue-awesome": "^4.1.0",
+		"vue-masonry": "^0.11.8",
+		"vue-sweetalert2": "^3.0.6"
+	},
+	"devDependencies": {
+		"@quasar/app": "^2.0.0"
+	},
+	"browserslist": [
+		"last 10 Chrome versions",
+		"last 10 Firefox versions",
+		"last 4 Edge versions",
+		"last 7 Safari versions",
+		"last 8 Android versions",
+		"last 8 ChromeAndroid versions",
+		"last 8 FirefoxAndroid versions",
+		"last 10 iOS versions",
+		"last 5 Opera versions"
+	],
+	"engines": {
+		"node": ">= 10.18.1",
+		"npm": ">= 6.13.4",
+		"yarn": ">= 1.21.1"
+	}
+}
